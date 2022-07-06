@@ -1,0 +1,47 @@
+.takenoteone{
+    height: 5vh;
+    width: 35vw;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.note-text{
+    width:70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: medium;
+    
+}
+
+.icons1{
+    width:30%;
+    height: 100%;
+    display:flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    align-items: center;
+}
+.new-list{
+   
+    height: 2.7vh;
+    width: 1.6vw;
+} 
+
+.brush-icon{
+    
+    height: 2.7vh;
+    width: 1.6vw;
+} 
+
+.image-icon{
+   
+    height: 3.2vh;
+    width: 2vw;
+} 

@@ -1,0 +1,95 @@
+.header {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+
+}
+
+.section-content-one {
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.menu-icon{
+    width: 40px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.keep-icon{
+    width: 90px;
+    height: 50px;
+}
+
+.keep-text{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+.section-content-two {
+    display: flex;
+    width: 50%;
+    background-color: #e3e3e3;
+    margin-left: 25px;
+}
+
+.search-icon {
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.search-field {
+    width: 100%;
+    background-color: #e3e3e3;
+    border: none;
+    outline: none;
+    height: 40px;
+}
+
+.section-content-three {
+    width: 11%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.refresh-icon{
+    width: 23px;
+    height: 23px;
+}
+
+.list-icon{
+    width: 25px;
+    height: 25px;
+}
+
+.settings-icon{
+    width: 25px;
+    height: 25px;
+}
+
+.section-content-four {
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.apps-icon{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.account-icon{
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,182 @@
+.parent {
+    display:flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.signupMain {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50vw;
+    height: 85vh;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+   
+}
+
+.leftside{
+    width: 55%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+ 
+.text{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text2{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.namesection{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.firstname{
+    width: 45%;
+}
+
+.lastname{
+    width: 45%;
+}
+
+.mailsection{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail{
+    width: 100%
+}
+
+
+.mailtext{
+    font-size: smaller;
+}
+
+.mailtext2{
+    width: 100%;
+    height: 10%;
+    color: rgb(51, 51, 189);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.passwordsection{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.passwordpart{
+    width:45%;
+}
+
+.confirmpart{
+    width:45%;
+}
+.passwordtext{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+
+}
+
+.checkboxsection{
+    width:100%;
+    height:15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.lastsection{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.lastsectiontext{
+    color: rgb(51, 51, 189);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rightside{
+    width: 35%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rightsideimage{
+    width: 27%;
+    height: 50%;
+    position: absolute;
+    top: 1vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.righttext{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
